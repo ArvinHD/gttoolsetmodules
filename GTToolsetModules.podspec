@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTToolsetModules'
-  s.version          = '0.1.71'
+  s.version          = '0.1.72'
   #s.summary          = 'iOS - 项目基础组件库'
   s.summary          = 'basemodule'
 # This description is used to generate tags and improve search results.
@@ -135,8 +135,9 @@ s.description      = <<-DESC
       end
 
    s.resource_bundles = {
-     'GTToolsetModules' => ['GTToolsetModules/Assets/*.{json}']
+     'GTToolsetModules' => ['GTToolsetModules/Assets/*']
    }
+   s.exclude_files = "GTToolsetModules/Assets/*.json"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
