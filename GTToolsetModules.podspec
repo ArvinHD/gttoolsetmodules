@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTToolsetModules'
-  s.version          = '0.1.70'
+  s.version          = '0.1.71'
   #s.summary          = 'iOS - 项目基础组件库'
   s.summary          = 'basemodule'
 # This description is used to generate tags and improve search results.
@@ -24,11 +24,11 @@ s.description      = <<-DESC
   basemoduleincludesecureexternmacronetwork
                        DESC
 
-  s.homepage         = 'http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules'
+  s.homepage         = 'https://github.com/ArvinHD/gttoolsetmodules.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xuchunyu-caibaoshuo' => 'xuchunyu@caibaoshuo.com' }
-  s.source           = { :git => 'http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ArvinHD/gttoolsetmodules.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -135,7 +135,7 @@ s.description      = <<-DESC
       end
 
    s.resource_bundles = {
-     'GTToolsetModules' => ['GTToolsetModules/Assets/*']
+     'GTToolsetModules' => ['GTToolsetModules/Assets/*.{json}']
    }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
