@@ -14,58 +14,63 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - GTResourceModules (0.1.4):
-    - GTResourceModules/GTLoadResources (= 0.1.4)
-  - GTResourceModules/GTLoadResources (0.1.4)
-  - GTToolsetModules (0.1.40):
-    - GTToolsetModules/AES (= 0.1.40)
-    - GTToolsetModules/Category (= 0.1.40)
-    - GTToolsetModules/Factory (= 0.1.40)
-    - GTToolsetModules/FCUUID (= 0.1.40)
-    - GTToolsetModules/LaunchAd (= 0.1.40)
-    - GTToolsetModules/Macros (= 0.1.40)
-    - GTToolsetModules/NetWork (= 0.1.40)
-    - GTToolsetModules/RequestURL (= 0.1.40)
-    - GTToolsetModules/Resources (= 0.1.40)
-  - GTToolsetModules/AES (0.1.40):
+  - GTResourceModules (0.1.5):
+    - GTResourceModules/GTLoadResources (= 0.1.5)
+  - GTResourceModules/GTLoadResources (0.1.5)
+  - GTToolsetModules (0.1.72):
+    - GTToolsetModules/AES (= 0.1.72)
+    - GTToolsetModules/Category (= 0.1.72)
+    - GTToolsetModules/Factory (= 0.1.72)
+    - GTToolsetModules/FCUUID (= 0.1.72)
+    - GTToolsetModules/LaunchAd (= 0.1.72)
+    - GTToolsetModules/Macros (= 0.1.72)
+    - GTToolsetModules/NetWork (= 0.1.72)
+    - GTToolsetModules/RequestURL (= 0.1.72)
+    - GTToolsetModules/Resources (= 0.1.72)
+  - GTToolsetModules/AES (0.1.72):
     - YYKit
-  - GTToolsetModules/Category (0.1.40):
-    - GTToolsetModules/Category/MBProgressHUB (= 0.1.40)
-    - GTToolsetModules/Category/NSObject (= 0.1.40)
-    - GTToolsetModules/Category/UIButton (= 0.1.40)
-    - GTToolsetModules/Category/UICollectionView (= 0.1.40)
-    - GTToolsetModules/Category/UITableView (= 0.1.40)
-    - GTToolsetModules/Category/UIViewController (= 0.1.40)
-  - GTToolsetModules/Category/MBProgressHUB (0.1.40):
+  - GTToolsetModules/Category (0.1.72):
+    - GTToolsetModules/Category/MBProgressHUB (= 0.1.72)
+    - GTToolsetModules/Category/NSObject (= 0.1.72)
+    - GTToolsetModules/Category/UIButton (= 0.1.72)
+    - GTToolsetModules/Category/UICollectionView (= 0.1.72)
+    - GTToolsetModules/Category/UITableView (= 0.1.72)
+    - GTToolsetModules/Category/UIView (= 0.1.72)
+    - GTToolsetModules/Category/UIViewController (= 0.1.72)
+  - GTToolsetModules/Category/MBProgressHUB (0.1.72):
     - GTResourceModules
     - GTToolsetModules/Macros
     - GTToolsetModules/Resources
+    - lottie-ios (~> 2.5.3)
     - MBProgressHUD (~> 1.1.0)
     - YYKit
-  - GTToolsetModules/Category/NSObject (0.1.40)
-  - GTToolsetModules/Category/UIButton (0.1.40)
-  - GTToolsetModules/Category/UICollectionView (0.1.40)
-  - GTToolsetModules/Category/UITableView (0.1.40):
+  - GTToolsetModules/Category/NSObject (0.1.72)
+  - GTToolsetModules/Category/UIButton (0.1.72)
+  - GTToolsetModules/Category/UICollectionView (0.1.72)
+  - GTToolsetModules/Category/UITableView (0.1.72):
     - GTToolsetModules/Macros
     - YYKit
-  - GTToolsetModules/Category/UIViewController (0.1.40)
-  - GTToolsetModules/Factory (0.1.40):
+  - GTToolsetModules/Category/UIView (0.1.72)
+  - GTToolsetModules/Category/UIViewController (0.1.72)
+  - GTToolsetModules/Factory (0.1.72):
     - GTToolsetModules/Macros
     - YYKit
-  - GTToolsetModules/FCUUID (0.1.40):
+  - GTToolsetModules/FCUUID (0.1.72):
     - UICKeyChainStore (~> 2.1.0)
-  - GTToolsetModules/LaunchAd (0.1.40)
-  - GTToolsetModules/Macros (0.1.40)
-  - GTToolsetModules/NetWork (0.1.40):
+  - GTToolsetModules/LaunchAd (0.1.72)
+  - GTToolsetModules/Macros (0.1.72)
+  - GTToolsetModules/NetWork (0.1.72):
     - AFNetworking (~> 3.0)
     - GTToolsetModules/AES
     - GTToolsetModules/Category/MBProgressHUB
     - GTToolsetModules/FCUUID
     - GTToolsetModules/Macros
+    - GTToolsetModules/RequestURL
     - MBProgressHUD (~> 1.1.0)
     - YYKit
-  - GTToolsetModules/RequestURL (0.1.40)
-  - GTToolsetModules/Resources (0.1.40)
+  - GTToolsetModules/RequestURL (0.1.72)
+  - GTToolsetModules/Resources (0.1.72)
+  - lottie-ios (2.5.3)
   - MBProgressHUD (1.1.0)
   - UICKeyChainStore (2.1.2)
   - YYKit (1.0.9):
@@ -80,6 +85,7 @@ SPEC REPOS:
     - GTResourceModules
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - lottie-ios
     - MBProgressHUD
     - UICKeyChainStore
     - YYKit
@@ -90,12 +96,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  GTResourceModules: 7ffed6faca0cb049ad0f288bc60730a8ff8a5e63
-  GTToolsetModules: e206a5950c6653fb56aa7af09f8476fe0252c967
+  GTResourceModules: fd243757e47e53912fdc2121ca09658d1d730b5e
+  GTToolsetModules: 7bc13eb309f4a8fdba7f1541574fe71de2dcc8c3
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 85fc2a83bb5f03473494d18c1b1e037720f8e822
+PODFILE CHECKSUM: 5cad295c72a4846ce57fa22406cfe7eb5ecc528d
 
-COCOAPODS: 1.10.0.beta.2
+COCOAPODS: 1.10.0

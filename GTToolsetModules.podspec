@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTToolsetModules'
-  s.version          = '0.1.72'
+  s.version          = '0.1.73'
   #s.summary          = 'iOS - 项目基础组件库'
   s.summary          = 'basemodule'
 # This description is used to generate tags and improve search results.

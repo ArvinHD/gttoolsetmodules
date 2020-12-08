@@ -1,9 +1,9 @@
 {
   "name": "GTToolsetModules",
-  "version": "0.1.40",
-  "summary": "iOS - 项目基础组件库",
-  "description": "包含数据加密组件、扩展配置组件集合、宏定义组件集合、网络请求基础框架",
-  "homepage": "http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules",
+  "version": "0.1.72",
+  "summary": "basemodule",
+  "description": "basemoduleincludesecureexternmacronetwork",
+  "homepage": "https://github.com/ArvinHD/gttoolsetmodules.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,18 @@
     "xuchunyu-caibaoshuo": "xuchunyu@caibaoshuo.com"
   },
   "source": {
-    "git": "http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules.git",
-    "tag": "0.1.40"
+    "git": "https://github.com/ArvinHD/gttoolsetmodules.git",
+    "tag": "0.1.72"
   },
   "platforms": {
     "ios": "9.0"
   },
+  "resource_bundles": {
+    "GTToolsetModules": [
+      "GTToolsetModules/Assets/*"
+    ]
+  },
+  "exclude_files": "GTToolsetModules/Assets/*.json",
   "subspecs": [
     {
       "name": "AES",
@@ -73,12 +79,19 @@
             ],
             "GTResourceModules": [
 
+            ],
+            "lottie-ios": [
+              "~> 2.5.3"
             ]
           },
           "frameworks": [
             "CoreGraphics",
             "AVFoundation"
           ]
+        },
+        {
+          "name": "UIView",
+          "source_files": "GTToolsetModules/Classes/Category/UIView/*.{h,m}"
         },
         {
           "name": "NSObject",
@@ -142,6 +155,9 @@
 
         ],
         "GTToolsetModules/FCUUID": [
+
+        ],
+        "GTToolsetModules/RequestURL": [
 
         ],
         "YYKit": [

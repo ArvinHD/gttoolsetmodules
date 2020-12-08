@@ -1,0 +1,6 @@
+framework module GTResourceModules {
+  umbrella header "GTResourceModules-umbrella.h"
+
+  export *
+  module * { export * }
+}

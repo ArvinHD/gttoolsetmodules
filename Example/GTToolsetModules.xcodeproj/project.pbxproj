@@ -512,6 +512,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GTToolsetModules/GTToolsetModules-Prefix.pch";
 				INFOPLIST_FILE = "GTToolsetModules/GTToolsetModules-Info.plist";
@@ -533,6 +534,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GTToolsetModules/GTToolsetModules-Prefix.pch";
 				INFOPLIST_FILE = "GTToolsetModules/GTToolsetModules-Info.plist";

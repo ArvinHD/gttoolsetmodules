@@ -17,6 +17,9 @@
 #import "UIButton+XYButton.h"
 #import "UICollectionView+IndexPath.h"
 #import "UITableViewCell+ConfigureCategory.h"
+#import "UIView+General.h"
+#import "UIView+LXShadowPath.h"
+#import "UIView+WaterMark.h"
 #import "UIViewController+AlertViewAndActionSheet.h"
 #import "FCUUID.h"
 #import "UIDevice+FCUUID.h"
@@ -45,6 +48,8 @@
 #import "MXNetWorkHelper.h"
 #import "PPNetworkCache.h"
 #import "PPNetworkHelper.h"
+#import "ZJHSessionConfiguration.h"
+#import "ZJHURLProtocol.h"
 #import "GTLoadRequestURLObject.h"
 #import "GTLoadResource.h"
 
