@@ -1,0 +1,159 @@
+{
+  "name": "GTToolsetModules",
+  "version": "0.1.40",
+  "summary": "iOS - 项目基础组件库",
+  "description": "包含数据加密组件、扩展配置组件集合、宏定义组件集合、网络请求基础框架",
+  "homepage": "http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuchunyu-caibaoshuo": "xuchunyu@caibaoshuo.com"
+  },
+  "source": {
+    "git": "http://10.152.160.21:8080/gtwork_ios/gttoolsetmodules.git",
+    "tag": "0.1.40"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "AES",
+      "source_files": "GTToolsetModules/Classes/AES/*.{h,m}",
+      "dependencies": {
+        "YYKit": [
+
+        ]
+      }
+    },
+    {
+      "name": "Factory",
+      "source_files": "GTToolsetModules/Classes/Factory/*.{h,m}",
+      "dependencies": {
+        "GTToolsetModules/Macros": [
+
+        ],
+        "YYKit": [
+
+        ]
+      }
+    },
+    {
+      "name": "Resources",
+      "source_files": "GTToolsetModules/Classes/Resources/*.{h,m}"
+    },
+    {
+      "name": "RequestURL",
+      "source_files": "GTToolsetModules/Classes/RequestURL/*.{h,m}"
+    },
+    {
+      "name": "LaunchAd",
+      "source_files": "GTToolsetModules/Classes/LaunchAd/*.{h,m}"
+    },
+    {
+      "name": "Category",
+      "subspecs": [
+        {
+          "name": "MBProgressHUB",
+          "source_files": "GTToolsetModules/Classes/Category/MBProgressHUB/*.{h,m}",
+          "dependencies": {
+            "GTToolsetModules/Macros": [
+
+            ],
+            "GTToolsetModules/Resources": [
+
+            ],
+            "YYKit": [
+
+            ],
+            "MBProgressHUD": [
+              "~> 1.1.0"
+            ],
+            "GTResourceModules": [
+
+            ]
+          },
+          "frameworks": [
+            "CoreGraphics",
+            "AVFoundation"
+          ]
+        },
+        {
+          "name": "NSObject",
+          "source_files": "GTToolsetModules/Classes/Category/NSObject/*.{h,m}"
+        },
+        {
+          "name": "UIButton",
+          "source_files": "GTToolsetModules/Classes/Category/UIButton/*.{h,m}"
+        },
+        {
+          "name": "UIViewController",
+          "source_files": "GTToolsetModules/Classes/Category/UIViewController/*.{h,m}"
+        },
+        {
+          "name": "UICollectionView",
+          "source_files": "GTToolsetModules/Classes/Category/UICollectionView/*.{h,m}"
+        },
+        {
+          "name": "UITableView",
+          "source_files": "GTToolsetModules/Classes/Category/UITableView/*.{h,m}",
+          "dependencies": {
+            "GTToolsetModules/Macros": [
+
+            ],
+            "YYKit": [
+
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "FCUUID",
+      "source_files": "GTToolsetModules/Classes/FCUUID/*.{h,m}",
+      "frameworks": [
+        "Foundation",
+        "UIKit",
+        "Security"
+      ],
+      "dependencies": {
+        "UICKeyChainStore": [
+          "~> 2.1.0"
+        ]
+      }
+    },
+    {
+      "name": "Macros",
+      "source_files": "GTToolsetModules/Classes/Macros/*.{h,m}"
+    },
+    {
+      "name": "NetWork",
+      "source_files": "GTToolsetModules/Classes/NetWork/*.{h,m}",
+      "dependencies": {
+        "GTToolsetModules/AES": [
+
+        ],
+        "GTToolsetModules/Category/MBProgressHUB": [
+
+        ],
+        "GTToolsetModules/Macros": [
+
+        ],
+        "GTToolsetModules/FCUUID": [
+
+        ],
+        "YYKit": [
+
+        ],
+        "AFNetworking": [
+          "~> 3.0"
+        ],
+        "MBProgressHUD": [
+          "~> 1.1.0"
+        ]
+      }
+    }
+  ]
+}

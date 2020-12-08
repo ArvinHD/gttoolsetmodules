@@ -1,0 +1,14 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://10.152.160.21:8080/gtwork_ios/gtmodulesspec.git'
+platform :ios, '9.0'
+
+target 'GTToolsetModules_Example' do
+  pod 'GTToolsetModules', :path => '../'
+
+  target 'GTToolsetModules_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

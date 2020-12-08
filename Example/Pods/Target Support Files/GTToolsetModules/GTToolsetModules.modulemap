@@ -1,0 +1,6 @@
+framework module GTToolsetModules {
+  umbrella header "GTToolsetModules-umbrella.h"
+
+  export *
+  module * { export * }
+}
